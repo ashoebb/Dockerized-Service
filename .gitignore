@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Environment files (contains secrets!)
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+coverage/
+.nyc_output/
+
+# Docker
+.dockerignore
+
+# Local docker-compose override
+docker-compose.override.yml
